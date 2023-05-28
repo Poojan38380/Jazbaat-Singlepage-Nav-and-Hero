@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NavbarStyles.css';
+import './Navbar.css';
 import Logo from "../Assets/text-logo.png";
 import OverlayLogo from "../Assets/og-logo.png";
 
@@ -42,22 +42,22 @@ const Navbar = () => {
                     <ul id='social-list' className={navbarOpen ? "#social-list active" : "#social-list"}>
                         <li>
                             <a href='#'>
-                                <i class="fa-brands fa-instagram"></i>
+                                <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <i class="fa-brands fa-youtube"></i>
+                                <i className="fa-brands fa-youtube"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <i class="fa-brands fa-facebook-f"></i>
+                                <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
                             <a href='#'>
-                                <i class="fa-solid fa-envelope"></i>
+                                <i className="fa-solid fa-envelope"></i>
                             </a>
                         </li>
                     </ul>
