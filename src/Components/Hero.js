@@ -28,7 +28,7 @@ const Hero = () => {
 
   return (
     <div id='main-hero'>
-      <img id='hero-bg' className='parallax hero-bg' data-speedx="0.05" data-speedy="0.05" src={heroimage} alt="" />
+      <img id='hero-bg' className='parallax hero-bg' data-speedx="0.025" data-speedy="0.025" src={heroimage} alt="" />
       <img id='hero-layer1' className='parallax layers hero-layer1' data-speedx="0.11" data-speedy="0.11" src={herolayer1} alt="" />
       <img id='hero-layer2' className='parallax layers hero-layer2' data-speedx="0.09" data-speedy="0.09" src={herolayer2} alt="" />
       <img id='hero-layer3' className='parallax layers hero-layer3' data-speedx="0.075" data-speedy="0.075" src={herolayer3} alt="" />
