@@ -21,7 +21,7 @@ const Navbar = () => {
                             <img id='overlay-logo' className={navbarOpen ? "#overlay-logo active" : "#overlay-logo"} src={OverlayLogo} alt="" />
                         </li>
                         <li>
-                            <a href='#' className='active'>Home</a>
+                            <a href='#' className='active' onClick={()=>document.querySelector('.hello').scrollIntoView({behavior: 'smooth'})}>Home</a>
                         </li>
                         <li>
                             <a href='#'>Events</a>

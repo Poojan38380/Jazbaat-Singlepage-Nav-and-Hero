@@ -4,13 +4,14 @@
 
 #hero-bg {
   top: 50%;
-  position: absolute;
+  position: relative;
   z-index: -100;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
   height: 150vh;
-  filter: grayscale(80%);
+  filter: grayscale(100%);
+  overflow: hidden;
 }
 
 .layers {
@@ -27,12 +28,14 @@
   z-index: 100;
 }
 #main-hero {
-  padding-top: 50px;
   z-index: -100;
-  position: fixed;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
+  position: fixed;
 }
 #main-hero::-webkit-scrollbar {
   display: none;
