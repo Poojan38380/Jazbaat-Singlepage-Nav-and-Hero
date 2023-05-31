@@ -11,7 +11,7 @@ const Navbar = () => {
         <div id='nav-main-container'>
             <div id='line'></div>
             <nav id='navbar-tag'>
-                <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start' className='grid-item'>
+                <a href='https://jazbaat-poojan.netlify.app/' className='grid-item'>
                     <img id='nav-logo' src={Logo} alt="" />
                 </a>
 
@@ -21,19 +21,19 @@ const Navbar = () => {
                             <img id='overlay-logo' className={navbarOpen ? "#overlay-logo active" : "#overlay-logo"} src={OverlayLogo} alt="" />
                         </li>
                         <li>
-                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start' className='active' onClick={()=>document.querySelector('.hello').scrollIntoView({behavior: 'smooth'})}>Home</a>
+                            <a href='https://jazbaat-poojan.netlify.app/' className='active' onClick={()=>document.querySelector('.hello').scrollIntoView({behavior: 'smooth'})}>Home</a>
                         </li>
                         <li>
-                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Events</a>
+                            <a href='https://jazbaat-poojan.netlify.app/'>Events</a>
                         </li>
                         <li>
-                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Team</a>
+                            <a href='https://jazbaat-poojan.netlify.app/'>Team</a>
                         </li>
                         <li>
-                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Gallery</a>
+                            <a href='https://jazbaat-poojan.netlify.app/'>Gallery</a>
                         </li>
                         <li>
-                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Contact</a>
+                            <a href='https://jazbaat-poojan.netlify.app/'>Contact</a>
                         </li>
                     </ul>
                 </div>
