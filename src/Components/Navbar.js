@@ -21,19 +21,19 @@ const Navbar = () => {
                             <img id='overlay-logo' className={navbarOpen ? "#overlay-logo active" : "#overlay-logo"} src={OverlayLogo} alt="" />
                         </li>
                         <li>
-                            <a href='#' className='active' onClick={()=>document.querySelector('.hello').scrollIntoView({behavior: 'smooth'})}>Home</a>
+                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start' className='active' onClick={()=>document.querySelector('.hello').scrollIntoView({behavior: 'smooth'})}>Home</a>
                         </li>
                         <li>
-                            <a href='#'>Events</a>
+                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Events</a>
                         </li>
                         <li>
-                            <a href='#'>Team</a>
+                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Team</a>
                         </li>
                         <li>
-                            <a href='#'>Gallery</a>
+                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Gallery</a>
                         </li>
                         <li>
-                            <a href='#'>Contact</a>
+                            <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start'>Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -41,22 +41,22 @@ const Navbar = () => {
                 <div id='social-div' >
                     <ul id='social-list' className={navbarOpen ? "#social-list active" : "#social-list"}>
                         <li>
-                            <a href='#'>
+                            <a href='https://www.instagram.com/jazbaat_dc/'>
                                 <i className="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='https://www.youtube.com/user/jazbaatiiitdmj'>
                                 <i className="fa-brands fa-youtube"></i>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='https://www.facebook.com/Jazbaatiiitdmj'>
                                 <i className="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a href='#'>
+                            <a href='jazbaat@iiitdmj.ac.in'>
                                 <i className="fa-solid fa-envelope"></i>
                             </a>
                         </li>
