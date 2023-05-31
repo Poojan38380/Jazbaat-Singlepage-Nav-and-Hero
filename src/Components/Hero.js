@@ -28,13 +28,13 @@ const Hero = () => {
 
   return (
     <div id='main-hero'>
-      <img id='hero-bg' className='parallax hero-bg' data-speedx="0.025" data-speedy="0.025" src={heroimage} alt="" />
-      <img id='hero-layer1' className='parallax layers hero-layer1' data-speedx="0.11" data-speedy="0.11" src={herolayer1} alt="" />
-      <img id='hero-layer2' className='parallax layers hero-layer2' data-speedx="0.09" data-speedy="0.09" src={herolayer2} alt="" />
-      <img id='hero-layer3' className='parallax layers hero-layer3' data-speedx="0.075" data-speedy="0.075" src={herolayer3} alt="" />
-      <img id='hero-layer4' className='parallax layers hero-layer4' data-speedx="0.07" data-speedy="0.07" src={herolayer4} alt="" />
-      <img id='hero-layer5' className='parallax layers hero-layer5' data-speedx="0.06" data-speedy="0.06" src={herolayer5} alt="" />
-      <img id='hero-layer6' className='parallax layers hero-layer6' data-speedx="0.08" data-speedy="0.08" src={herolayer6} alt="" />
+      <img id='hero-bg' className='parallax hero-bg' data-speedx="0.035" data-speedy="0.025" src={heroimage} alt="" />
+      <img id='hero-layer1' className='parallax layers hero-layer1' data-speedx="0.11" data-speedy="0.1" src={herolayer1} alt="" />
+      <img id='hero-layer2' className='parallax layers hero-layer2' data-speedx="0.09" data-speedy="0.08" src={herolayer2} alt="" />
+      <img id='hero-layer3' className='parallax layers hero-layer3' data-speedx="0.075" data-speedy="0.065" src={herolayer3} alt="" />
+      <img id='hero-layer4' className='parallax layers hero-layer4' data-speedx="0.07" data-speedy="0.06" src={herolayer4} alt="" />
+      <img id='hero-layer5' className='parallax layers hero-layer5' data-speedx="0.06" data-speedy="0.05" src={herolayer5} alt="" />
+      <img id='hero-layer6' className='parallax layers hero-layer6' data-speedx="0.08" data-speedy="0.07" src={herolayer6} alt="" />
 
     </div>
   )
