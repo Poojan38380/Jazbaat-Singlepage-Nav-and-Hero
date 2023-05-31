@@ -11,7 +11,7 @@ const Navbar = () => {
         <div id='nav-main-container'>
             <div id='line'></div>
             <nav id='navbar-tag'>
-                <a href='#' className='grid-item'>
+                <a href='https://www.iiitdmj.ac.in/jazbaat.iiitdmj.ac.in/#start' className='grid-item'>
                     <img id='nav-logo' src={Logo} alt="" />
                 </a>
 

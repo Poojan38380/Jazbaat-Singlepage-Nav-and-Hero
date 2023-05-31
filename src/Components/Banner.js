@@ -1,7 +1,6 @@
 import React from 'react'
 import './Banner.css';
-import bannerbg from "../Assets/banner-bg.jpeg";
-import bannerimg from "../Assets/banner-img.jpeg";
+
 const Banner = () => {
     window.addEventListener('scroll', reveal);
     function reveal() {
